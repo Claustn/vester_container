@@ -18,6 +18,30 @@ In time I would like my changes to go back into Vester, so I do not need to use 
 
 So how do I test this ? 
 
+Create folder
+
+    mkdir vestertest
+    
+Enter the newly created folder
+
+    cd vestertest
+
+Then clone the Git repo
+
+    git clone https://github.com/Claustn/vester_container.git
+Enter the directory
+
+    cd vester_container
+Build the container (In the video I have cheated on this step, and prebuilt the image, it takes a couple minutes to download all dependencies, and don't worry about the weird output, it is just the PowerShellget process bars acting up)
+
+    docker build -t vestercontainer .
+Run the docker container interactively so you can put in your vcenter/username/password
+
+    docker run -it vestercontainer
+
+
+
+
 
 
 
