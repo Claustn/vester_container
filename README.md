@@ -41,7 +41,7 @@ Run the docker container interactively so you can put in your vcenter/username/p
 
 
 
-
+![](https://i.imgur.com/JxYNCDM.gif)
 
 
 
